@@ -9,9 +9,9 @@ $(document).ready(function() {
         t: 'resume',
         bg: '',
         type: 'resume',
-        content: '<a class="icon-link resume-download" href="/assets/Resume (AUG 2017).pdf" download>'+
+        content: '<a class="icon-link resume-download" href="assets/Resume (AUG 2017).pdf" download>'+
                  '<i class="fa fa-cloud-download" aria-hidden="true"></i></a>'+
-                 '<a class="icon-link resume-view" href="/assets/Resume (AUG 2017).pdf" target="_blank">'+
+                 '<a class="icon-link resume-view" href="assets/Resume (AUG 2017).pdf" target="_blank">'+
                  '<i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>'
       },
       {
@@ -30,7 +30,7 @@ $(document).ready(function() {
       },
       {
         t: 'about',
-        bg: 'url(/assets/about_me.jpg)',
+        bg: 'url(assets/about_me.jpg)',
         type: 'about',
         content: ''
       },
