@@ -94,7 +94,7 @@ html, body {
     height: 250px;
     width: 250px;
     opacity: 0;
-    background: url("assets/avi-bw.png");
+    background: url("../assets/avi-bw.png");
     background-size: 145%;
     background-position: top;
     background-repeat: no-repeat;
