@@ -9,23 +9,23 @@ $(document).ready(function() {
         t: 'resume',
         bg: '',
         type: 'resume',
-        content: '<a class="icon-link resume-download" href="assets/Resume (AUG 2017).pdf" download>'+
+        content: '<a data-label="resume-download" class="icon-link resume-download" href="assets/Resume (AUG 2017).pdf" download>'+
                  '<i class="fa fa-cloud-download" aria-hidden="true"></i></a>'+
-                 '<a class="icon-link resume-view" href="assets/Resume (AUG 2017).pdf" target="_blank">'+
+                 '<a data-label="resume-view" class="icon-link resume-view" href="assets/Resume (AUG 2017).pdf">'+
                  '<i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>'
       },
       {
         t: 'codepen',
         bg: '',
         type: 'codepen',
-        content: '<a class="icon-link codepen" href="https://codepen.io/brandoncanaday" target="_blank">'+
+        content: '<a data-label="codepen" class="icon-link codepen" href="https://codepen.io/brandoncanaday">'+
                  '<i class="fa fa-codepen" aria-hidden="true"></i></a>'
       },
       {
         t: 'projects',
         bg: '',
         type: 'projects',
-        content: '<a class="icon-link github" href="https://github.com/brandoncanaday" target="_blank">'+
+        content: '<a data-label="github" class="icon-link github" href="https://github.com/brandoncanaday">'+
                  '<i class="fa fa-github" aria-hidden="true"></i></a>'
       },
       {
@@ -64,6 +64,16 @@ $(document).ready(function() {
       } // if/else
       $grid.appendChild($box);
     } // for
+
+    // google analytics event tracking prior to href nagivation
+
+    $('.icon-link').click(() => {
+      let eventLabel = $(this).attr('data-label');
+      gtag('event', 'link_click', {
+        'event_category': 'engagement',
+        'event_label': eventLabel
+      });
+    });
 
     // lazy-load images
 
