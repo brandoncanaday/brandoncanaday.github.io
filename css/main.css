@@ -108,8 +108,8 @@ html, body {
     height: 125px;
     width: 250px;
     border-radius: 0 0 250px 250px;
-    background-color: #DC4D09;
-    box-shadow: 0px 0px 25px #EF6F0A;
+    /* background-color: #DC4D09;
+    box-shadow: 0px 0px 25px #EF6F0A; */
 }
 
 .me-wrap:hover .me,
@@ -249,7 +249,7 @@ html, body {
   flex-grow: 1;
   height: 70%;
   flex-basis: 100%;
-  background: radial-gradient(circle 700px at 50% 0, rgba(251,233,151,.4) 25%, transparent 35%);
+  background: radial-gradient(circle 480px at 50% 0, #DC4D0930 25%, transparent 35%);
 }
 
 .grid {
@@ -446,6 +446,7 @@ html, body {
   .grid-wrap {
     height: 85%;
     flex-basis: 100%;
+    background: radial-gradient(circle 400px at 50% 0, #DC4D0930 25%, transparent 35%);
   }
   .grid {
     grid-template-columns: repeat(2, 1fr);

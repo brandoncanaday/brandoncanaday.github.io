@@ -9,10 +9,8 @@ $(document).ready(function() {
         t: 'resume',
         bg: '',
         type: 'resume',
-        content: '<a data-label="resume-download" class="icon-link resume-download" href="assets/resume.pdf" download>'+
-                 '<i class="fa fa-cloud-download" aria-hidden="true"></i></a>'+
-                 '<a data-label="resume-view" class="icon-link resume-view" href="assets/resume.pdf">'+
-                 '<i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>'
+        content: '<a data-label="resume-download" class="icon-link resume-download" href="https://github.com/brandoncanaday/resumes/raw/master/resume.docx" download>'+
+                 '<i class="fa fa-cloud-download" aria-hidden="true"></i></a>'
       },
       {
         t: 'codepen',
