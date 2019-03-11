@@ -9,7 +9,7 @@ $(document).ready(function() {
         t: 'resume',
         bg: '',
         type: 'resume',
-        content: '<a data-label="resume-download" class="icon-link resume-download" href="https://github.com/brandoncanaday/resumes/raw/master/resume.docx" download>'+
+        content: '<a data-label="resume-download" class="icon-link resume-download" href="https://drive.google.com/open?id=1QVTzBCh2D_9D_PyNe3pBm8X-fpUHBDPm">'+
                  '<i class="fa fa-cloud-download" aria-hidden="true"></i></a>'
       },
       {
