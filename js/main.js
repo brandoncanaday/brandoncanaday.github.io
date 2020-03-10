@@ -16,7 +16,7 @@ $(document).ready(function() {
       bg: "",
       type: "resume",
       content:
-        '<a data-label="resume-download" class="icon-link resume-download" href="https://www.icloud.com/iclouddrive/0Ko2G3j4GFvV2cIFtECNKGKbw#resume">' +
+        '<a data-label="resume-download" class="icon-link resume-download" href="https://www.icloud.com/iclouddrive/0zglG49wE3k9hCVQqqax_QuVw#resume">' +
         '<i class="fa fa-cloud-download" aria-hidden="true"></i></a>'
     },
     {
